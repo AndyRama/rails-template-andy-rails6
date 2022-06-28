@@ -21,21 +21,33 @@ gem 'jbuilder', '~> 2.7'
 gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
-# Use Active Storage variant
-# gem 'image_processing', '~> 1.2'
-
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
-
+# Use Active Storage variant
+# gem 'image_processing', '~> 1.2'
 gem 'devise'
-
 gem 'autoprefixer-rails', '10.2.5'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form', github: 'heartcombo/simple_form'
-group :development, :test do  gem 'pry-byebug'
+
+# gem "execjs", '~> 2.7.0'
+# gem 'postmark-rails'
+# gem 'activeadmin'
+# gem 'activeadmin_addons'
+# gem 'draper'
+# gem 'pundit'
+
+
+
+group :development, :test do  
+  gem 'pry-byebug'
   gem 'pry-rails'
   gem 'dotenv-rails'
+
+  # gem 'letter_opener'
+  # gem 'listen', '~> 3.0.5'
+  # gem 'spring'
+  # gem 'spring-watcher-listen', '~> 2.0.0'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
